@@ -2,169 +2,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Two Boxes Inside</title>
+    <title>Komala M - Resume</title>
     <style>
-        .outer {
-            height: 1500px;
-            width: 1000px;
-            border: 10px solid black;
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            margin: 20px;
-        }
 
-        .box1, .box2 {
-            padding: 20px;
-            height: 1447px;
-            width: 450px;
-            border: 6px solid grey;
-            background-color: rgb(100,100,100);
-            color: white;
-            text-align: center;
-        }
+       body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
 
-        .profile-pic {
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid white;
-            margin-bottom: 20px;
-        }
+.page-border {
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 30px 50px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    background-color: white;
+}
 
-        .mibox1 {
-            display: none;
-        }
+.section {
+    margin-bottom: 30px;
+}
 
-        h2 {
-            font-size: 28px;
-            font-weight: bold;
-            color: white;
-            word-spacing: 0.3em;
-        }
+.profile-pic {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid black;
+    display: block;
+    margin: 0 auto 15px;
+}
 
-        h2 {
-            margin-top: 10px;
-        }
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
-        p, ul, li {
-            font-size: 22px;
-            word-spacing: 0.15em;
-            text-align: left; /* Keep left aligned for better readability */
-        }
+.contact {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
-        li {
-            text-align: left;
-        }
+h2 {
+    font-size: 26px;
+    color: black;
+    border-bottom: 1px solid #888;
+    padding-bottom: 5px;
+    margin-top: 45px;
+}
+
+ul, li {
+    font-size: 18px;
+    word-spacing: 0.1em;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #aaa;
+    margin: 30px 0;
+}
+
+
     </style>
-
 </head>
 <body>
 
-<div class="outer">
-    <div class="box1">
-        <img src="ammu.jpg" alt="Profile Picture" class="profile-pic">
-        <h2 style="color:white">Name: Komala M</h2>
-        <hr>
-        <h2 style="font-weight:bold; color:white">SUMMARY</h2>
-        <p style="font-size:20px; text-align:left">
-            Motivated and detail-oriented engineering graduate with a solid foundation in programming and software development. Skilled in HTML, CSS, JavaScript, and Java. Passionate about building responsive web applications and continuously learning new technologies. A quick learner with strong problem-solving skills and the ability to work collaboratively in team environments.</p>
-
-        <HR>
-
-        <h2 style="font-weight:bold;">SKILLS</h2>
-        <ul style="font-size:20px;" id="li">
-            <li>Programming Languages: Java, Python, C++</li>
-            <li>Web Technologies: HTML, CSS, JavaScript</li>
-            <li>Frameworks: React.js, Node.js, Express.js</li>
-            <li>Database: MongoDB, MySQL</li>
-            <li>Tools: Git, GitHub, VS Code, Eclipse</li>
-            <li>Soft Skills: Problem Solving, Teamwork, Communication, Time Management</li>
-        </ul>
-        <hr>
-        <h2>EXPERIENCE</h2>
-        <UL STYLE="font-size:20px">
-            <li>Developed responsive web pages using HTML, CSS, and JavaScript.</li>
-            <li>Assisted in building components using React.js for a client dashboard.</li>
-            <li>Collaborated with the backend team to integrate RESTful APIs.</li>
-            <li>Improved website performance and accessibility by 20%.</li>
-        </UL>
-        <hr>
-        <h2>EDUCATION</h2>
-        <ul style="font-size:20px"></ul>
-
-
-        <li>SSLC:   SACRED HEART GIRL'S HIGH SCHOOL</li><br>
-
-        <li>PUC:    SACRED HEART GIRL'S PU COLLEGE</li><br>
-
-
-        <LI>DEGREE: VIJAYA VITTALA INSTITUTE OF TECHNOLOGY</LI>
-        <br>
-
-        <ul/>
-
-
+<div class="page-border">
+    <img src="ammu.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Komala M</h1>
+    <div class="contact">
+        <p>Email: <a href="mailto:komalareddy2715@gmail.com">komalareddy2715@gmail.com</a></p>
+        <p>Phone: 8971265235</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/komala-m-605267299">komala-m-605267299</a></p>
     </div>
 
-    <div class="box2">
-        <h2>Internships</h2>
-        <ul style="font-size:20px; text-align: left;">
-            <li>
-                <strong>More Virtual/Remote Internships:</strong> Flexible online internships accessible globally.
-                <p style="font-size:16px; margin-top: 5px;">
-                    These internships allow you to work from anywhere, making it easier to gain experience without relocating.
-                </p>
-            </li>
-            <li>
-                <strong>Project-Based & Skill-Focused:</strong> Interns work on real projects to build specific skills.
-                <p style="font-size:16px; margin-top: 5px;">
-                    You get hands-on experience by contributing to meaningful projects, improving your practical knowledge.
-                </p>
-            </li>
-            <li>
-                <strong>Mentorship & Networking Opportunities:</strong> Interns receive guidance from industry professionals and connect with peers.
-                <p style="font-size:16px; margin-top: 5px;">
-                    This helps build valuable relationships and learn directly from experts, enhancing career growth.
-                </p>
-            </li>
+    <div class="section">
+        <h2>Summary</h2>
+        <p>
+            Aspiring Full Stack Developer skilled in JavaScript, React, Node.js, and MongoDB. Currently training in Java Full Stack at TCS Strive. Eager to apply my skills and learn in a professional environment.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages: HTML, CSS, JavaScript, Core Java (Intermediate)</li>
+            <li>Frontend: React, Bootstrap</li>
+            <li>Backend: Node.js, Express.js</li>
+            <li>Database: MongoDB (Mongoose)</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Deployment: Render</li>
+            <li>Tools: VS Code, Eclipse, Terminal</li>
         </ul>
+    </div>
 
-
-        <hr>
-        <h2> Projects</h2>
-        <ul style="font-size: 20px;">
-
-            <li><strong>AI & Machine Learning:</strong> Real-world problem solving with intelligent systems.</li>
-            <li><strong>Web3 & Blockchain:</strong> Decentralized apps, NFTs, and smart contracts.</li>
-            <li><strong>IoT (Internet of Things):</strong> Smart devices and sensor networks.</li>
-            <li><strong>Sustainability & Green Tech:</strong> Environmental and renewable energy projects.</li>
-            <li><strong>Cloud & Serverless:</strong> Scalable applications on cloud platforms.</li>
-            <li><strong>Mobile & Cross-Platform:</strong> Apps with Flutter, React Native, or native tools.</li>
-            <li><strong>Data Science & Big Data:</strong> Analyzing large datasets for insights.</li>
-        </ul>
-        <hr>
+    <div class="section">
         <h2>Certifications</h2>
-        <ul style="font-size:20px; text-align: left;">
-            <li>
-                <strong>Certified Java Developer (Oracle):</strong> Demonstrates proficiency in Java programming and application development.
+        <ul>
+            <li>Full Stack Web Development – Apna College (2025)</li>
+            <li>Life Skills (Jeevan Kaushal) – Wadhwani Foundation & Rooman Technologies (2025)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Spotify Clone</strong> – <a href="https://github.com/Komalareddy27/SpotifyCloneJS">GitHub</a><br>
+                Responsive homepage using HTML and CSS.
             </li>
-            <li>
-                <strong>Front-End Web Developer Nanodegree (Udacity):</strong> Covers skills in HTML, CSS, JavaScript, and building responsive web applications.
+            <li><strong>Simon Says Game</strong> – <a href="https://github.com/Komalareddy27/Simon-Game">GitHub</a><br>
+                Memory-based game using JavaScript.
             </li>
-            <li>
-                <strong>MongoDB Certified Developer Associate:</strong> Validates knowledge in designing and building applications using MongoDB.
+            <li><strong>Weather App</strong> – <a href="https://github.com/Komalareddy27/WeatherApp">GitHub</a><br>
+                React app with external weather API integration.
             </li>
-            <li>
-                <strong>React Developer Certification (Coursera):</strong> Focuses on building user interfaces using React.js and modern JavaScript.
+            <li><strong>WonderLust</strong> – <a href="https://main-project-wonderlust.onrender.com/">Live</a><br>
+                Full-stack Airbnb clone with MongoDB, Express, Cloudinary, and authentication.
             </li>
-            <li>
-                <strong>Node.js Certification (OpenJS Foundation):</strong> Confirms skills in building scalable server-side applications using Node.js.
+            <li><strong>Hair & Scalp Disease Prediction</strong> – <a href="https://github.com/Komalareddy27/Hair-and-Scalp-Disease-Prediction">GitHub</a><br>
+                Flask + CNN app using TensorFlow and Google Gemini API.
             </li>
         </ul>
+    </div>
 
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.E:</strong> Vijaya Vittala Institute of Technology, Bangalore – 560077 (8.9 CGPA, 2025)</li>
+            <li><strong>PUC:</strong> Sacred Heart Girl's PU College, Jeevan Bhima Nagar, Bangalore – 560075 (89%, 2021)</li>
+            <li><strong>SSLC:</strong> Sacred Heart Girl's High School, Bangalore – 560075 (91%, 2019)</li>
+        </ul>
+    </div>
 
+    <div class="section">
+        <h2>Coursework</h2>
+        <ul>
+            <li>Java Full Stack Development (Ongoing) – TCS Strive</li>
+        </ul>
     </div>
 </div>
 
